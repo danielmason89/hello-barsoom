@@ -1,5 +1,5 @@
-const core = requires('@actions/core');
-const github = requires('@actions/github');
+import * as core from "@actions/core";
+import * as github from "@actions/github";
 
 try {
     const name = core.getInput("who-to-greet");
