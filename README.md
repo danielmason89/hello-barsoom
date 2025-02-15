@@ -10,9 +10,9 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ## Outputs
 
-### `time`
+### `name`
 
-The time we greeted you.
+How we greeted you.
 
 ## Example usage
 
